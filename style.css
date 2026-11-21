@@ -1,0 +1,65 @@
+body {
+    background: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+.main-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h1 {
+    color: #174873;
+    font-weight: bold;
+}
+
+h4 {
+    color: #245b76;
+}
+
+.form-control {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.students-box,
+.report-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 60px;
+}
+
+.student-item {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-right: 4px solid #0d6efd;
+    border-radius: 5px;
+}
+
+.report-item {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-right: 4px solid #198754;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    .main-card {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
